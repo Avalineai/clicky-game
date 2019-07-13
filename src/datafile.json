@@ -8,7 +8,7 @@
     {
         "id": 2,
         "name": "cat 2",
-        "image": "/assets/images/cat2.jpg",
+        "image": "/assets/images/cat5.jpg",
         "click:": false
     },
     {
@@ -26,7 +26,7 @@
     {
         "id": 5,
         "name": "cat 5",
-        "image": "/assets/images/cat5.jpg",
+        "image": "/assets/images/cat2.jpg",
         "click:": false
     },
     {

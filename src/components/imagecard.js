@@ -30,8 +30,7 @@ function ImageCard(props) {
         <div style={view.viewCont}>
         <div style={contStyles.container} className="card">
             <div style={styles.imgSize} className="img-container">
-                <img style={styles.imgSize} alt={props.name} src={props.image.image} />
-                <p>{props.id}</p>
+                <img onClick={() => props.handleClick(props.image.id)} style={styles.imgSize} alt={props.name} src={props.image.image} />
             </div>
         </div>
         </div>
