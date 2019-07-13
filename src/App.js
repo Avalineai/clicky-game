@@ -30,7 +30,9 @@ handleClick = id => {
         imageBool.click = false;
       }
     })
+  this.setState({ score: 0 })
   }
+  
 }
 
 
@@ -38,11 +40,10 @@ handleClick = id => {
   console.log(imageArr)
   return (
     <>
-    <div>
-      { this.state.score }
-      { console.log(`score goes here`) }
-    </div>
-
+      <div className="title-cont">
+      <h1>Click Me Meow</h1>
+      <p>Your Score: { this.state.score }</p>
+      </div>
     {this.state.imageArr.map(image => (
       <ImageCard
       handleClick = { this.handleClick }
